@@ -33,6 +33,28 @@ def getJulyConn():
         )
     return conn
 
+def getRemoteConn():
+    conn = MySQLdb.connect(
+        host='112.74.48.2',
+        port=3306,
+        user='root',
+        passwd='leeldddsql',
+        db='wetland',
+        charset='utf8'
+    )
+    return conn
+
+def getMacLocalConn():
+    conn = MySQLdb.connect(
+        host='127.0.0.1',
+        port=3306,
+        user='root',
+        passwd='123',
+        db='wetland',
+        charset='utf8'
+    )
+    return conn
+
 #创建数据表
 #cur.execute("create table student(id int ,name varchar(20),class varchar(30),age varchar(10))")
 
