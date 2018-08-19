@@ -1,4 +1,4 @@
-import  mysqlConnector
+import mysqlConnector
 def addAnimalRelation(id, name, sciname, description,wetland_id,wetland_name):
     conn = mysqlConnector.getConn()
     cur = conn.cursor()

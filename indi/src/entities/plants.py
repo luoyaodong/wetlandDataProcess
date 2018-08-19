@@ -1,11 +1,10 @@
 #coding:utf-8
-import MySQLdb
 
 import mysqlConnector
 
 
 def getPlantsSciName():
-    conn=mysqlConnector.getConn()
+    conn= mysqlConnector.getConn()
     cur = conn.cursor()
     count = cur.execute('select Scientific_name from 中国植物志')
     print count

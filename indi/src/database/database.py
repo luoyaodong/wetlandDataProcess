@@ -1,8 +1,11 @@
 # -*- coding:utf-8 -*-
 
-import mysqlConnector.connector
 import os
+
 from extarctXML import extractTitle
+
+import mysqlConnector
+
 
 class mysqlManipulator:
 
@@ -81,7 +84,8 @@ class mysqlManipulator:
         fpt.close()
 
 def main():
-    mm = mysqlManipulator(mysqlConnector.connector.connect(user='root', password="******", database='homework', use_unicode=True))
+    mm = mysqlManipulator(
+        mysqlConnector.connector.connect(user='root', password="******", database='homework', use_unicode=True))
     fp = open('./basics/basicInfo.txt', 'r')
     while True:
         line = fp.readline()[:-1]

@@ -35,10 +35,12 @@ def getJulyConn():
 
 def getRemoteConn():
     conn = MySQLdb.connect(
-        host='112.74.48.2',
+        host='114.115.141.179',
+        #host='112.74.48.2',
         port=3306,
         user='root',
-        passwd='leeldddsql',
+        #passwd='leeldddsql',
+        passwd='123',
         db='wetland',
         charset='utf8'
     )

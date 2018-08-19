@@ -1,6 +1,8 @@
-import coordinateDao
-import  mysqlConnector
 import time
+
+import coordinateDao
+import mysqlConnector
+
 
 def getGeoname():
     conn = mysqlConnector.getGeoConn()

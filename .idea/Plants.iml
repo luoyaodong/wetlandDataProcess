@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/indi/src/regularExtract" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/indi/src/July" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/indi/src/ali" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/indi/src/2018.8.20" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7.10 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
